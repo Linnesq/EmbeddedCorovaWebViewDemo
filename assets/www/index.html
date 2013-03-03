@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<title>Your Homepage</title>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<script src="cordova/cordova-2.4.0.js"></script>
+		<script src="scripts/init.js"></script>
+		<script src="cordova/toast.js"></script>
+		<script src="scripts/button-handlers.js"></script>
+		<link rel="stylesheet" href="styles/style.css" />
+		<!-- <script src="http://debug.phonegap.com/target/target-script-min.js#5a0cb1da-5b87-4896-873a-e76c161fe475"></script> -->
+	</head>
+	<body onload="onLoad()" class="content">
+		<div class="harabara">
+		<p>This is a Cordova WebView, embedded in a Native app.</p>
+		<p>To spruce up the UI, you could use a framework like jQueryMobile...</p>
+		<br/>
+		<button onclick="toastButtonHandler()" class="harabara">Make a Toast</button>
+		<br/>
+		<button onclick="cordovaButtonHandler()" class="harabara">Get some device info using cordova</button>
+		</div>
+	</body>
+</html>

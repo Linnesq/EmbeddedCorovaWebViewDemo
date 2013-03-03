@@ -1,0 +1,20 @@
+.content {
+	background-color: #ABE3D4;	
+}
+
+@font-face {
+	font-family: 'Harabara';
+	src: url('../fonts/harabara-webfont.ttf') format('truetype');
+}
+
+.harabara {
+	font-family: 'Harabara', sans-serif;
+	font-size: large;
+}
+
+button {
+	padding: 10px;
+	background-color: #ABDCE3;
+	border-radius: 10px;
+	border: black solid 2px;
+}
