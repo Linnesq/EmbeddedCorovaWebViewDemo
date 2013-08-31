@@ -27,3 +27,8 @@ proguard/
 *.ipr
 *.iws
 .idea/
+
+# Others
+.DS_Store
+.settings/
+project.properties
