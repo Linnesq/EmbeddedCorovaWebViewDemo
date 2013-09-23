@@ -8,3 +8,9 @@ var cordovaButtonHandler = function(){
 	message += '\nDevice Version (Android): ' + device.version;
 	alert(message);
 }
+
+var openLink = function(){
+	var url = "https://www.google.co.uk"
+	window.plugins.toast.shortToast("To open link in system browser, try adapting WebIntent plugin")
+	window.open(url)
+}
