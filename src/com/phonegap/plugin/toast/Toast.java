@@ -10,18 +10,11 @@ import android.util.Log;
 
 public class Toast extends CordovaPlugin {
 
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see org.apache.cordova.api.CordovaPlugin#execute(java.lang.String,
-	 * org.json.JSONArray, org.apache.cordova.api.CallbackContext)
-	 */
 	@Override
 	public boolean execute(String action, JSONArray args,
 			CallbackContext callbackContext) throws JSONException {
 		if (action.equals("longToast")) {
 			String message = args.getString(0);
-			// logger("long toast yeah" + args.getString(0));
 			showToastLong(message);
 			return true;
 		} else if (action.equals("shortToast")) {
