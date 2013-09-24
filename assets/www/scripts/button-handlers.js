@@ -3,7 +3,7 @@ var toastButtonHandler = function(){
 }
 
 var cordovaButtonHandler = function(){
-	var message = 'Device Name: ' + device.name;
+	var message = 'Cordova version: ' + device.cordova;
 	message += '\nDevice Model: ' + device.model;
 	message += '\nDevice Version (Android): ' + device.version;
 	alert(message);
